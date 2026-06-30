@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SHACMAN 出口产品配置单 2026</title><style>:root{--bg:#0a0e17;--bg3:#1a2236;--bg4:#1e293b;--accent:#3b82f6;--accent3:#8b5cf6;--gold:#f59e0b;--green:#22c55e;--text:#e2e8f0;--text2:#94a3b8;--text3:#64748b;--border:#1e3a5f;--card:#0f172a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--accent);text-decoration:none;transition:color .2s}
+a:hover{color:var(--accent3)}
+.ctn{max-width:1200px;margin:0 auto;padding:0 20px}
+.hdr{background:linear-gradient(135deg,#0f172a,#1e1b4b 50%,#0f172a);border-bottom:1px solid var(--border);padding:24px 0;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px)}
+.hdr h1{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,var(--accent),var(--accent3));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hdr .sub{color:var(--text2);font-size:.85rem;margin-top:4px}
+.sb{display:flex;gap:24px;margin-top:12px;flex-wrap:wrap}
+.si{text-align:center}
+.si .n{font-size:1.6rem;font-weight:800;background:linear-gradient(135deg,var(--gold),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.si .l{font-size:.7rem;color:var(--text3);text-transform:uppercase;letter-spacing:1px}
+/* ── 首页大区域组（可折叠） ── */
+.rg{margin:28px 0;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:linear-gradient(135deg,rgba(15,23,42,.6),rgba(30,27,75,.3))}
+.rgh{display:flex;align-items:center;gap:14px;padding:18px 22px;cursor:pointer;transition:background .2s;user-select:none}
+.rgh:hover{background:rgba(59,130,246,.06)}
+.rgh .ric{font-size:2rem}
+.rgh h2{font-size:1.3rem;font-weight:700;flex:1}
+.rgh .ren{color:var(--text3);font-size:.8rem;margin-left:8px}
+.rgh .rstats{display:flex;gap:18px;margin-right:12px}
+.rgh .rst{text-align:center}
+.rgh .rst .rv{font-size:1.1rem;font-weight:800;color:var(--gold)}
+.rgh .rst .rl{font-size:.6rem;color:var(--text3);text-transform:uppercase;letter-spacing:.5px}
+.rgh .rarr{font-size:.8rem;color:var(--text3);transition:transform .3s}
+.rg.open .rgh .rarr{transform:rotate(180deg)}
+.rgb{max-height:0;overflow:hidden;transition:max-height .5s ease}
+.rg.open .rgb{max-height:6000px}
+.rgb-inner{padding:4px 18px 18px}
+.rs{margin:28px 0}
+.rh{display:flex;align-items:center;gap:10px;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--border)}
+.rh .ic{font-size:1.5rem}
+.rh h2{font-size:1.2rem;font-weight:600}
+.rh .en{color:var(--text3);font-size:.8rem;margin-left:8px}
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.cc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;cursor:pointer;transition:all .3s;position:relative;overflow:hidden;text-decoration:none;display:block}
+.cc::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent3));opacity:0;transition:opacity .3s}
+.cc:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 25px rgba(59,130,246,.15)}
+.cc:hover::before{opacity:1}
+.cc .nm{font-size:.95rem;font-weight:600;color:var(--text)}
+.cc .ne{font-size:.75rem;color:var(--text3)}
+.cc .nd{font-size:.68rem;color:var(--accent3);margin-top:1px;opacity:.8}
+.cc .ct{font-size:.8rem;color:var(--accent);margin-top:6px}
+.cc .ct span{font-weight:700;font-size:1rem}
+.ft{text-align:center;padding:24px 0;margin-top:36px;border-top:1px solid var(--border);color:var(--text3);font-size:.75rem}
+.bl{display:inline-flex;align-items:center;gap:6px;color:var(--text2);font-size:.85rem;margin-bottom:12px}
+.bl:hover{color:var(--accent)}
+.ts{margin:28px 0}
+.th{display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:10px 14px;background:var(--bg3);border-radius:10px;border-left:4px solid var(--accent)}
+.th .ic{font-size:1.3rem}
+.th h3{font-size:1.1rem;font-weight:600}
+.th .en{color:var(--text3);font-size:.8rem;margin-left:6px}
+.vg{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:20px}
+.vc{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:all .3s;position:relative}
+.vc:hover{border-color:var(--accent);box-shadow:0 4px 20px rgba(59,130,246,.1)}
+.vt{background:linear-gradient(135deg,var(--bg3),var(--bg4));padding:14px;display:flex;justify-content:space-between;align-items:flex-start}
+.vp{font-size:1.25rem;font-weight:800;background:linear-gradient(135deg,var(--gold),#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.vd{font-size:.8rem;color:var(--text2);margin-top:2px}
+.vb{display:inline-block;padding:2px 8px;border-radius:16px;font-size:.7rem;font-weight:600}
+.vb.vr{background:rgba(139,92,246,.15);color:var(--accent3);border:1px solid rgba(139,92,246,.3)}
+.vb.em{background:rgba(34,197,94,.1);color:var(--green);border:1px solid rgba(34,197,94,.3)}
+.vy{padding:14px}
+.vr2{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.03);font-size:.8rem}
+.vr2:last-child{border:none}
+.vr2 .lb{color:var(--text3)}
+.vr2 .vl{color:var(--text);font-weight:500;text-align:right;max-width:60%}
+.vpr{margin-top:8px;padding-top:8px;border-top:1px dashed var(--border);text-align:right}
+.vpr .am{font-size:1.3rem;font-weight:800;color:var(--gold)}
+.vpr .un{font-size:.7rem;color:var(--text3)}
+/* ── 下载表单弹窗 ── */
+.dl-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9998;align-items:center;justify-content:center}
+.dl-overlay.show{display:flex}
+.dl-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px 32px;width:340px;text-align:center}
+.dl-box h3{font-size:1.1rem;margin-bottom:6px;color:var(--text)}
+.dl-box p{font-size:.8rem;color:var(--text3);margin-bottom:16px}
+.dl-box input{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:8px;background:var(--bg3);color:var(--text);font-size:.95rem;text-align:center;outline:none}
+.dl-box input:focus{border-color:var(--accent)}
+.dl-box button{margin-top:14px;padding:8px 28px;border:none;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent3));color:#fff;font-size:.9rem;cursor:pointer;transition:opacity .2s}
+.dl-box button:hover{opacity:.85}
+.dl-box .err{color:#ef4444;font-size:.75rem;margin-top:8px;display:none}
+/* ── 卡片内配置区域 ── */
+.cfb{margin-top:10px;padding-top:10px;border-top:1px solid rgba(59,130,246,.15)}
+.cfh{font-size:.72rem;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:4px}
+.cfh.base{color:var(--accent)}
+.cfh.country{color:var(--gold)}
+.cfi{padding:8px 12px;font-size:.72rem;line-height:1.7;color:var(--text2)}
+.cft{display:inline}
+.cft.base{color:rgba(148,163,184,.85)}
+.cft.country{color:var(--gold)}
+.cs{margin:16px 0;padding:14px;background:var(--card);border:1px solid var(--border);border-radius:10px}
+.ct2{font-size:.9rem;font-weight:600;color:var(--accent);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.ci{display:flex;flex-wrap:wrap;gap:5px}
+.ct3{padding:3px 8px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;font-size:.75rem;color:var(--text2)}
+.fb{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.fbt{padding:5px 14px;border:1px solid var(--border);border-radius:18px;background:var(--bg3);color:var(--text2);cursor:pointer;font-size:.8rem;transition:all .2s}
+.fbt:hover,.fbt.ac{border-color:var(--accent);color:var(--accent);background:rgba(59,130,246,.1)}
+.sb2{padding:7px 14px;border:1px solid var(--border);border-radius:8px;background:var(--bg3);color:var(--text);font-size:.8rem;width:180px;outline:none}
+.sb2:focus{border-color:var(--accent)}
+.cpb{position:absolute;top:10px;right:42px;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:var(--bg3);color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.85rem;opacity:0;transition:all .2s;z-index:2}
+.vc:hover .cpb{opacity:1}
+.cpb:hover{border-color:var(--green);color:var(--green);background:rgba(34,197,94,.1)}
+.cpb.copied{border-color:var(--green);color:var(--green);background:rgba(34,197,94,.15)}
+.dlb{position:absolute;top:10px;right:10px;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:var(--bg3);color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.85rem;opacity:0;transition:all .2s;z-index:2}
+.vc:hover .dlb{opacity:1}
+.dlb:hover{border-color:var(--accent);color:var(--accent);background:rgba(59,130,246,.1)}
+/* ── 首页全站密码锁 ── */
+.gate{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0a0e17 0%,#1e1b4b 50%,#0f172a 100%);transition:opacity .5s}
+.gate.hide{opacity:0;pointer-events:none}
+.gate-box{text-align:center;width:360px}
+.gate-logo{font-size:3rem;font-weight:900;letter-spacing:6px;background:linear-gradient(135deg,var(--gold),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.gate-sub{color:var(--text3);font-size:.9rem;margin-bottom:28px}
+.gate-box input{width:100%;padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg3);color:var(--text);font-size:1rem;text-align:center;outline:none;letter-spacing:4px;transition:border-color .2s}
+.gate-box input:focus{border-color:var(--accent)}
+.gate-box button{margin-top:16px;padding:10px 36px;border:none;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent3));color:#fff;font-size:1rem;cursor:pointer;transition:opacity .2s;font-weight:600}
+.gate-box button:hover{opacity:.85}
+.gate-err{color:#ef4444;font-size:.8rem;margin-top:10px;display:none}
+.vbtn{display:flex;align-items:center;justify-content:center;gap:4px;width:100%;margin:6px 0 2px;padding:5px 0;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--text3);font-size:.72rem;cursor:pointer;transition:all .2s}
+.vbtn:hover{color:var(--accent);border-color:var(--accent);background:rgba(59,130,246,.05)}
+.vbtn .arr{transition:transform .25s;font-size:.6rem}
+.vbtn.open .arr{transform:rotate(180deg)}
+.vexp{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.vexp.show{max-height:800px}
+@media(max-width:768px){.vg{grid-template-columns:1fr}.cg{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}.hdr h1{font-size:1.2rem}.dlb,.cpb{opacity:1}}
+/* ── 价格计算器 ── */
+.calc-fab{position:fixed;right:24px;bottom:24px;z-index:9000;width:52px;height:52px;border-radius:50%;border:none;cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent3));color:#fff;font-size:1.4rem;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(59,130,246,.45);transition:all .3s}
+.calc-fab:hover{transform:scale(1.1);box-shadow:0 6px 28px rgba(59,130,246,.6)}
+.calc-fab::before{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(59,130,246,.35);animation:cfpulse 2s ease-out infinite}
+@keyframes cfpulse{0%{transform:scale(.85);opacity:.7}70%{transform:scale(1.2);opacity:0}100%{transform:scale(1.2);opacity:0}}
+.calc-panel{position:fixed;right:24px;bottom:90px;z-index:9001;width:360px;background:rgba(10,14,23,.95);border:1px solid rgba(59,130,246,.25);border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.6),0 0 0 1px rgba(59,130,246,.1);backdrop-filter:blur(20px);overflow:hidden;display:none;transform:translateY(20px);opacity:0;transition:transform .3s cubic-bezier(.34,1.56,.64,1),opacity .25s}
+.calc-panel.open{display:block;transform:translateY(0);opacity:1}
+.calc-hd{display:flex;align-items:center;justify-content:space-between;padding:16px 20px 12px;border-bottom:1px solid rgba(59,130,246,.12);background:linear-gradient(135deg,rgba(59,130,246,.08),rgba(139,92,246,.06))}
+.calc-hd h3{font-size:.95rem;font-weight:700;display:flex;align-items:center;gap:8px;color:var(--text)}
+.calc-hd .badge{font-size:.62rem;background:rgba(59,130,246,.2);color:var(--accent);border-radius:8px;padding:1px 7px;font-weight:600;letter-spacing:.5px}
+.calc-close{width:28px;height:28px;border:none;background:rgba(255,255,255,.06);border-radius:8px;color:var(--text3);cursor:pointer;font-size:.9rem;display:flex;align-items:center;justify-content:center;transition:all .2s}
+.calc-close:hover{background:rgba(239,68,68,.15);color:#ef4444}
+.calc-body{padding:16px 20px}
+.calc-row{margin-bottom:14px}
+.calc-row label{display:flex;align-items:center;justify-content:space-between;font-size:.72rem;color:var(--text3);margin-bottom:5px;letter-spacing:.3px}
+.calc-row label span{color:var(--accent3);font-size:.68rem}
+.calc-inp-wrap{position:relative;display:flex;align-items:center}
+.calc-inp{width:100%;padding:9px 48px 9px 14px;border:1px solid rgba(59,130,246,.18);border-radius:10px;background:rgba(30,35,58,.8);color:var(--text);font-size:.92rem;outline:none;transition:border-color .2s;font-weight:500}
+.calc-inp:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(59,130,246,.1)}
+.calc-inp-unit{position:absolute;right:12px;font-size:.7rem;color:var(--text3);pointer-events:none;font-weight:500}
+.calc-sep{height:1px;background:linear-gradient(90deg,transparent,rgba(59,130,246,.2),transparent);margin:16px 0}
+.calc-note{font-size:.68rem;color:var(--text3);padding:8px 12px;background:rgba(59,130,246,.05);border-radius:8px;border-left:3px solid rgba(59,130,246,.3);line-height:1.6;margin-bottom:14px}
+.calc-results{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:2px}
+.calc-result-card{border-radius:12px;padding:12px 10px;text-align:center;border:1px solid transparent;transition:all .25s}
+.calc-result-card.fca-c{background:linear-gradient(135deg,rgba(34,197,94,.08),rgba(34,197,94,.04));border-color:rgba(34,197,94,.2)}
+.calc-result-card.fob-c{background:linear-gradient(135deg,rgba(59,130,246,.1),rgba(59,130,246,.05));border-color:rgba(59,130,246,.25)}
+.calc-result-card.cif-c{background:linear-gradient(135deg,rgba(245,158,11,.1),rgba(245,158,11,.05));border-color:rgba(245,158,11,.25)}
+.calc-result-card .rc-label{font-size:.62rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
+.fca-c .rc-label{color:var(--green)}
+.fob-c .rc-label{color:var(--accent)}
+.cif-c .rc-label{color:var(--gold)}
+.calc-result-card .rc-val{font-size:1.05rem;font-weight:800;line-height:1.2}
+.fca-c .rc-val{color:var(--green)}
+.fob-c .rc-val{color:var(--accent)}
+.cif-c .rc-val{color:var(--gold)}
+.calc-result-card .rc-usd{font-size:.68rem;color:var(--text3);margin-top:3px;font-weight:500}
+.calc-result-card .rc-unit{font-size:.62rem;color:var(--text3);opacity:.7}
+.calc-exrate-row{display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:12px;border-top:1px solid rgba(59,130,246,.1)}
+.calc-exrate-row label{font-size:.7rem;color:var(--text3);white-space:nowrap}
+.calc-exrate-inp{flex:1;padding:6px 10px;border:1px solid rgba(59,130,246,.18);border-radius:8px;background:rgba(30,35,58,.8);color:var(--text);font-size:.82rem;outline:none;text-align:center}
+.calc-exrate-inp:focus{border-color:var(--accent)}
+.calc-reset{width:100%;margin-top:10px;padding:8px;border:1px dashed rgba(59,130,246,.2);border-radius:8px;background:transparent;color:var(--text3);font-size:.72rem;cursor:pointer;transition:all .2s}
+.calc-reset:hover{border-color:var(--accent3);color:var(--accent3);background:rgba(139,92,246,.06)}
+@media(max-width:480px){.calc-panel{width:calc(100vw - 32px);right:16px;bottom:80px}}
+</style></head><body><div class="gate" id="gate"><div class="gate-box"><div class="gate-logo">SHACMAN</div><div class="gate-sub">输入密钥解锁访问</div><input type="password" id="gate-input" placeholder="请输入密钥" onkeydown="if(event.key==='Enter')checkGate()"><button onclick="checkGate()">解锁</button><div class="gate-err" id="gate-err">密钥错误，请重试</div></div></div><div class="hdr"><div class="ctn"><h1>SHACMAN 出口产品配置单 2026</h1><div class="sub">Export Product Config Catalog 2026</div><div class="sb"><div class="si"><div class="n">66</div><div class="l">Categories</div></div><div class="si"><div class="n">860</div><div class="l">Models</div></div><div class="si"><div class="n">3</div><div class="l">Catalogs</div></div></div></div></div><div class="ctn"><div class="rg"><div class="rgh" onclick="toggleRG(this)"><span class="ric">🚛</span><h2>陕汽产品配置单<span class="ren">SHACMAN Product Config Catalog &middot; 57 categories &middot; 698 models</span></h2><div class="rstats"><div class="rst"><div class="rv">7</div><div class="rl">Regions</div></div><div class="rst"><div class="rv">57</div><div class="rl">Categories</div></div><div class="rst"><div class="rv">698</div><div class="rl">Models</div></div></div><span class="rarr">▼</span></div><div class="rgb"><div class="rgb-inner"><div class="rs"><div class="rh"><span class="ic">🌍</span><h2>非洲一区</h2><span class="en">Africa Zone 1 &middot; 9 countries &middot; 92 models</span></div><div class="cg"><a href="countries/egypt.html" class="cc"><div class="nm">埃及</div><div class="ne">Egypt</div><div class="ct"><span>3</span> models</div></a><a href="countries/guinea.html" class="cc"><div class="nm">几内亚</div><div class="ne">Guinea</div><div class="ct"><span>13</span> models</div></a><a href="countries/ghana.html" class="cc"><div class="nm">加纳</div><div class="ne">Ghana</div><div class="ct"><span>14</span> models</div></a><a href="countries/tunisia.html" class="cc"><div class="nm">突尼斯</div><div class="ne">Tunisia</div><div class="ct"><span>1</span> models</div></a><a href="countries/west_africa_5.html" class="cc"><div class="nm">西非五国</div><div class="ne">West Africa 5</div><div class="nd">科特迪瓦、布基纳法索、多哥、贝宁、尼日尔</div><div class="ct"><span>21</span> models</div></a><a href="countries/algeria.html" class="cc"><div class="nm">阿尔及利亚</div><div class="ne">Algeria</div><div class="ct"><span>14</span> models</div></a><a href="countries/libya.html" class="cc"><div class="nm">利比亚</div><div class="ne">Libya</div><div class="ct"><span>11</span> models</div></a><a href="countries/morocco.html" class="cc"><div class="nm">摩洛哥</div><div class="ne">Morocco</div><div class="ct"><span>1</span> models</div></a><a href="countries/senegal_mali_mauritania.html" class="cc"><div class="nm">塞内加尔/马里/毛里塔尼亚</div><div class="ne">Senegal/Mali/Mauritania</div><div class="ct"><span>14</span> models</div></a></div></div><div class="rs"><div class="rh"><span class="ic">🌍</span><h2>非洲二区</h2><span class="en">Africa Zone 2 &middot; 9 countries &middot; 102 models</span></div><div class="cg"><a href="countries/angola.html" class="cc"><div class="nm">安哥拉</div><div class="ne">Angola</div><div class="ct"><span>14</span> models</div></a><a href="countries/dr_congo.html" class="cc"><div class="nm">刚果(金)</div><div class="ne">DR Congo</div><div class="ct"><span>10</span> models</div></a><a href="countries/nigeria.html" class="cc"><div class="nm">尼日利亚</div><div class="ne">Nigeria</div><div class="ct"><span>10</span> models</div></a><a href="countries/kenya.html" class="cc"><div class="nm">肯尼亚</div><div class="ne">Kenya</div><div class="ct"><span>6</span> models</div></a><a href="countries/rwanda.html" class="cc"><div class="nm">卢旺达</div><div class="ne">Rwanda</div><div class="ct"><span>8</span> models</div></a><a href="countries/madagascar.html" class="cc"><div class="nm">马达加斯加</div><div class="ne">Madagascar</div><div class="ct"><span>3</span> models</div></a><a href="countries/gabon_cameroon.html" class="cc"><div class="nm">加蓬/喀麦隆</div><div class="ne">Gabon/Cameroon</div><div class="ct"><span>17</span> models</div></a><a href="countries/east_southern_africa_6.html" class="cc"><div class="nm">东南部非洲六国</div><div class="ne">East &amp; Southern Africa 6</div><div class="nd">南非、津巴布韦、莫桑比克、赞比亚、坦桑尼亚、乌干达</div><div class="ct"><span>29</span> models</div></a><a href="countries/ethiopia_djibouti.html" class="cc"><div class="nm">埃塞俄比亚/吉布提</div><div class="ne">Ethiopia/Djibouti</div><div class="ct"><span>5</span> models</div></a></div></div><div class="rs"><div class="rh"><span class="ic">🕋</span><h2>中东区</h2><span class="en">Middle East &middot; 9 countries &middot; 70 models</span></div><div class="cg"><a href="countries/N1.html" class="cc"><div class="nm">N1</div><div class="ne"></div><div class="ct"><span>5</span> models</div></a><a href="countries/uae.html" class="cc"><div class="nm">阿联酋</div><div class="ne">UAE</div><div class="ct"><span>8</span> models</div></a><a href="countries/armenia.html" class="cc"><div class="nm">亚美尼亚</div><div class="ne">Armenia</div><div class="ct"><span>0</span> models</div></a><a href="countries/oman.html" class="cc"><div class="nm">阿曼</div><div class="ne">Oman</div><div class="ct"><span>5</span> models</div></a><a href="countries/kuwait.html" class="cc"><div class="nm">科威特</div><div class="ne">Kuwait</div><div class="ct"><span>2</span> models</div></a><a href="countries/saudi_arabia.html" class="cc"><div class="nm">沙特</div><div class="ne">Saudi Arabia</div><div class="ct"><span>32</span> models</div></a><a href="countries/qatar.html" class="cc"><div class="nm">卡塔尔</div><div class="ne">Qatar</div><div class="ct"><span>2</span> models</div></a><a href="countries/sudan.html" class="cc"><div class="nm">苏丹</div><div class="ne">Sudan</div><div class="ct"><span>11</span> models</div></a><a href="countries/iraq.html" class="cc"><div class="nm">伊拉克</div><div class="ne">Iraq</div><div class="ct"><span>5</span> models</div></a></div></div><div class="rs"><div class="rh"><span class="ic">🌎</span><h2>中南美区+蒙古</h2><span class="en">Latin America &amp; Mongolia &middot; 12 countries &middot; 102 models</span></div><div class="cg"><a href="countries/mexico.html" class="cc"><div class="nm">墨西哥</div><div class="ne">Mexico</div><div class="ct"><span>8</span> models</div></a><a href="countries/paraguay.html" class="cc"><div class="nm">巴拉圭</div><div class="ne">Paraguay</div><div class="ct"><span>2</span> models</div></a><a href="countries/mongolia.html" class="cc"><div class="nm">蒙古</div><div class="ne">Mongolia</div><div class="ct"><span>7</span> models</div></a><a href="countries/suriname.html" class="cc"><div class="nm">苏里南</div><div class="ne">Suriname</div><div class="ct"><span>3</span> models</div></a><a href="countries/ecuador.html" class="cc"><div class="nm">厄瓜多尔</div><div class="ne">Ecuador</div><div class="ct"><span>10</span> models</div></a><a href="countries/argentina.html" class="cc"><div class="nm">阿根廷</div><div class="ne">Argentina</div><div class="ct"><span>5</span> models</div></a><a href="countries/colombia.html" class="cc"><div class="nm">哥伦比亚</div><div class="ne">Colombia</div><div class="ct"><span>12</span> models</div></a><a href="countries/chile.html" class="cc"><div class="nm">智利</div><div class="ne">Chile</div><div class="ct"><span>3</span> models</div></a><a href="countries/jamaica.html" class="cc"><div class="nm">牙买加</div><div class="ne">Jamaica</div><div class="ct"><span>15</span> models</div></a><a href="countries/uruguay.html" class="cc"><div class="nm">乌拉圭</div><div class="ne">Uruguay</div><div class="ct"><span>5</span> models</div></a><a href="countries/peru.html" class="cc"><div class="nm">秘鲁</div><div class="ne">Peru</div><div class="ct"><span>19</span> models</div></a><a href="countries/dominican_republic.html" class="cc"><div class="nm">多米尼加</div><div class="ne">Dominican Republic</div><div class="ct"><span>13</span> models</div></a></div></div><div class="rs"><div class="rh"><span class="ic">🏔️</span><h2>亚俄区</h2><span class="en">Central Asia &amp; Russia &middot; 5 countries &middot; 99 models</span></div><div class="cg"><a href="countries/S1.html" class="cc"><div class="nm">S1</div><div class="ne"></div><div class="ct"><span>33</span> models</div></a><a href="countries/kazakhstan.html" class="cc"><div class="nm">哈萨克</div><div class="ne">Kazakhstan</div><div class="ct"><span>25</span> models</div></a><a href="countries/uzbekistan.html" class="cc"><div class="nm">乌兹别克</div><div class="ne">Uzbekistan</div><div class="ct"><span>2</span> models</div></a><a href="countries/central_asia_3.html" class="cc"><div class="nm">中亚三国</div><div class="ne">Central Asia 3</div><div class="ct"><span>32</span> models</div></a><a href="countries/georgia.html" class="cc"><div class="nm">格鲁吉亚</div><div class="ne">Georgia</div><div class="ct"><span>7</span> models</div></a></div></div><div class="rs"><div class="rh"><span class="ic">🌏</span><h2>亚太区-东南亚</h2><span class="en">Asia Pacific - Southeast Asia &middot; 7 countries &middot; 180 models</span></div><div class="cg"><a href="countries/pakistan.html" class="cc"><div class="nm">巴基斯坦</div><div class="ne">Pakistan</div><div class="ct"><span>7</span> models</div></a><a href="countries/philippines.html" class="cc"><div class="nm">菲律宾</div><div class="ne">Philippines</div><div class="ct"><span>61</span> models</div></a><a href="countries/cambodia.html" class="cc"><div class="nm">柬埔寨</div><div class="ne">Cambodia</div><div class="ct"><span>7</span> models</div></a><a href="countries/laos.html" class="cc"><div class="nm">老挝</div><div class="ne">Laos</div><div class="ct"><span>14</span> models</div></a><a href="countries/myanmar.html" class="cc"><div class="nm">缅甸</div><div class="ne">Myanmar</div><div class="ct"><span>9</span> models</div></a><a href="countries/indonesia.html" class="cc"><div class="nm">印度尼西亚</div><div class="ne">Indonesia</div><div class="ct"><span>49</span> models</div></a><a href="countries/vietnam.html" class="cc"><div class="nm">越南</div><div class="ne">Vietnam</div><div class="ct"><span>33</span> models</div></a></div></div><div class="rs"><div class="rh"><span class="ic">🌏</span><h2>亚太区-其他</h2><span class="en">Asia Pacific - Others &middot; 6 countries &middot; 53 models</span></div><div class="cg"><a href="countries/papua_new_guinea.html" class="cc"><div class="nm">巴布亚新几内亚</div><div class="ne">Papua New Guinea</div><div class="ct"><span>2</span> models</div></a><a href="countries/fiji.html" class="cc"><div class="nm">斐济</div><div class="ne">Fiji</div><div class="ct"><span>7</span> models</div></a><a href="countries/malaysia.html" class="cc"><div class="nm">马来西亚</div><div class="ne">Malaysia</div><div class="ct"><span>30</span> models</div></a><a href="countries/thailand.html" class="cc"><div class="nm">泰国</div><div class="ne">Thailand</div><div class="ct"><span>3</span> models</div></a><a href="countries/香港澳门.html" class="cc"><div class="nm">香港、澳门</div><div class="ne"></div><div class="ct"><span>4</span> models</div></a><a href="countries/singapore.html" class="cc"><div class="nm">新加坡</div><div class="ne">Singapore</div><div class="ct"><span>7</span> models</div></a></div></div></div></div></div><div class="rg"><div class="rgh" onclick="toggleRG(this)"><span class="ric">🔧</span><h2>陕汽专用车配置单<span class="ren">SHACMAN Special Vehicles Config &middot; 2 categories &middot; 53 models</span></h2><div class="rstats"><div class="rst"><div class="rv">1</div><div class="rl">Regions</div></div><div class="rst"><div class="rv">2</div><div class="rl">Categories</div></div><div class="rst"><div class="rv">53</div><div class="rl">Models</div></div></div><span class="rarr">▼</span></div><div class="rgb"><div class="rgb-inner"><div class="rs"><div class="rh"><span class="ic">🌐</span><h2>专用车配置单</h2><span class="en">SHACMAN Special Vehicles Config &middot; 2 countries &middot; 53 models</span></div><div class="cg"><a href="countries/cargo_trucks_17.html" class="cc"><div class="nm">载货车-17款</div><div class="ne">Cargo Trucks - 17 Models</div><div class="ct"><span>17</span> models</div></a><a href="countries/special_vehicles_36.html" class="cc"><div class="nm">专用车-36款</div><div class="ne">Special Vehicles - 36 Models</div><div class="ct"><span>36</span> models</div></a></div></div></div></div></div><div class="rg"><div class="rgh" onclick="toggleRG(this)"><span class="ric">🏪</span><h2>陕商产品配置单<span class="ren">SHACMAN Dealer Config Catalog &middot; 7 categories &middot; 109 models</span></h2><div class="rstats"><div class="rst"><div class="rv">1</div><div class="rl">Regions</div></div><div class="rst"><div class="rv">7</div><div class="rl">Categories</div></div><div class="rst"><div class="rv">109</div><div class="rl">Models</div></div></div><span class="rarr">▼</span></div><div class="rgb"><div class="rgb-inner"><div class="rs"><div class="rh"><span class="ic">🌐</span><h2>陕商产品配置单</h2><span class="en">SHACMAN Dealer Config Catalog &middot; 7 countries &middot; 109 models</span></div><div class="cg"><a href="countries/2026年经销商版-阿尔及利亚.html" class="cc"><div class="nm">2026年经销商版-阿尔及利亚</div><div class="ne"></div><div class="ct"><span>2</span> models</div></a><a href="countries/2026年经销商版-电动车.html" class="cc"><div class="nm">2026年经销商版-电动车</div><div class="ne"></div><div class="ct"><span>2</span> models</div></a><a href="countries/2026年经销商版-左舵轻卡-欧二.html" class="cc"><div class="nm">2026年经销商版-左舵轻卡-欧二</div><div class="ne"></div><div class="ct"><span>22</span> models</div></a><a href="countries/2026年经销商版-右舵轻卡-欧二.html" class="cc"><div class="nm">2026年经销商版-右舵轻卡-欧二</div><div class="ne"></div><div class="ct"><span>6</span> models</div></a><a href="countries/2026年经销商版-左舵轻卡-欧五.html" class="cc"><div class="nm">2026年经销商版-左舵轻卡-欧五</div><div class="ne"></div><div class="ct"><span>19</span> models</div></a><a href="countries/2026年经销商版-中卡.html" class="cc"><div class="nm">2026年经销商版-中卡</div><div class="ne"></div><div class="ct"><span>10</span> models</div></a><a href="countries/2026年经销商版-重卡-欧二_欧三.html" class="cc"><div class="nm">2026年经销商版-重卡-欧二/欧三</div><div class="ne"></div><div class="ct"><span>48</span> models</div></a></div></div></div></div></div><div class="ft">SHACMAN &middot; Export Product Config Catalog 2026</div></div><button class="calc-fab" onclick="toggleCalc()" title="价格计算器">🧮</button>
+<div class="calc-panel" id="calc-panel" data-point="" data-region="">
+  <div class="calc-hd">
+    <h3>🧮 价格计算器 <span class="badge">FOB · FCA · CIF</span></h3>
+    <button class="calc-close" onclick="toggleCalc()">✕</button>
+  </div>
+  <div class="calc-body">
+    <div class="calc-row">
+      <label>产品价格 <span>点击卡片价格自动填入</span></label>
+      <div class="calc-inp-wrap"><input class="calc-inp" id="c-prod" type="number" placeholder="0.000" oninput="calcPrice()" value=""><span class="calc-inp-unit">万元</span></div>
+    </div>
+    <div class="calc-row">
+      <label>点位 <span id="c-point-region" style="color:var(--gold)"></span></label>
+      <div class="calc-inp-wrap"><input class="calc-inp" id="c-rate" type="number" placeholder="1.000" step="0.001" oninput="calcPrice()" value=""><span class="calc-inp-unit">×</span></div>
+    </div>
+    <div class="calc-row">
+      <label>上装价格 <span>专用设备加装</span></label>
+      <div class="calc-inp-wrap"><input class="calc-inp" id="c-sup" type="number" placeholder="0.000" oninput="calcPrice()" value=""><span class="calc-inp-unit">万元</span></div>
+    </div>
+    <div class="calc-sep"></div>
+    <div class="calc-note">FCA = (产品价 × 点位 + 上装) ÷ 1.13<br>FOB = FCA + 港杂费<br>CIF = FOB + 运费</div>
+    <div class="calc-row">
+      <label>港杂费 <span>港口杂费</span></label>
+      <div class="calc-inp-wrap"><input class="calc-inp" id="c-port" type="number" placeholder="0.000" oninput="calcPrice()" value=""><span class="calc-inp-unit">万元</span></div>
+    </div>
+    <div class="calc-row">
+      <label>运费 <span>海运费用</span></label>
+      <div class="calc-inp-wrap"><input class="calc-inp" id="c-freight" type="number" placeholder="0.000" oninput="calcPrice()" value=""><span class="calc-inp-unit">万元</span></div>
+    </div>
+    <div class="calc-sep"></div>
+    <div class="calc-results">
+      <div class="calc-result-card fca-c">
+        <div class="rc-label">FCA</div>
+        <div class="rc-val" id="r-fca">—</div>
+        <div class="rc-unit">万元</div>
+        <div class="rc-usd" id="r-fca-usd">—</div>
+      </div>
+      <div class="calc-result-card fob-c">
+        <div class="rc-label">FOB</div>
+        <div class="rc-val" id="r-fob">—</div>
+        <div class="rc-unit">万元</div>
+        <div class="rc-usd" id="r-fob-usd">—</div>
+      </div>
+      <div class="calc-result-card cif-c">
+        <div class="rc-label">Cif</div>
+        <div class="rc-val" id="r-cif">—</div>
+        <div class="rc-unit">万元</div>
+        <div class="rc-usd" id="r-cif-usd">—</div>
+      </div>
+    </div>
+    <div class="calc-exrate-row">
+      <label>汇率 USD</label>
+      <input class="calc-exrate-inp" id="c-exrate" type="number" placeholder="7.20" step="0.01" oninput="calcPrice()" value="7.20">
+      <label>元/美元</label>
+    </div>
+    <button class="calc-reset" onclick="resetCalc()">↺ 重置所有输入</button>
+  </div>
+</div><script>var GK="2002";if(sessionStorage.getItem("gate_unlocked")==="1"){var g=document.getElementById("gate");if(g)g.style.display="none"}function checkGate(){var inp=document.getElementById("gate-input");var err=document.getElementById("gate-err");if(inp.value===GK){sessionStorage.setItem("gate_unlocked","1");var g=document.getElementById("gate");if(g){g.classList.add("hide");setTimeout(function(){g.style.display="none"},500)}}else{err.style.display="block";inp.value="";inp.focus()}}</script><script>function toggleRG(el){var rg=el.closest(".rg");if(!rg)return;var isOpen=rg.classList.toggle("open");saveRGState()}function saveRGState(){var s=[];document.querySelectorAll(".rg").forEach(function(g,i){s.push(g.classList.contains("open")?1:0)});sessionStorage.setItem("rg_open",JSON.stringify(s))}function restoreRGState(){var raw=sessionStorage.getItem("rg_open");if(!raw)return;try{var s=JSON.parse(raw);document.querySelectorAll(".rg").forEach(function(g,i){if(s[i])g.classList.add("open")})}catch(e){}}document.addEventListener("DOMContentLoaded",restoreRGState)</script><script>
+function toggleCalc(){var p=document.getElementById("calc-panel");if(!p)return;var isOpen=p.classList.toggle("open");if(isOpen){p.style.display="block";applyDefaultPoint();restoreCalcInputs()}else setTimeout(function(){if(!p.classList.contains("open"))p.style.display="none"},300)}
+function applyDefaultPoint(){var p=document.getElementById("calc-panel");var rEl=document.getElementById("c-rate");if(!p||!rEl)return;if(rEl.value)return;var pt=p.getAttribute("data-point");var rg=p.getAttribute("data-region");if(pt){rEl.value=pt;if(rg){var lbl=document.getElementById("c-point-region");if(lbl)lbl.textContent=rg+" · 固定点位"}}}
+function fillCalcFromCard(price){var pEl=document.getElementById("c-prod");if(!pEl)return;pEl.value=price;var p=document.getElementById("calc-panel");if(p&&!p.classList.contains("open"))toggleCalc();calcPrice()}
+function calcPrice(){var prod=parseFloat(document.getElementById("c-prod").value)||0;var rate=parseFloat(document.getElementById("c-rate").value)||0;var sup=parseFloat(document.getElementById("c-sup").value)||0;var port=parseFloat(document.getElementById("c-port").value)||0;var freight=parseFloat(document.getElementById("c-freight").value)||0;var exrate=parseFloat(document.getElementById("c-exrate").value)||7.2;var fca=(prod*rate+sup)/1.13;var fob=fca+port;var cif=fob+freight;var fmt=function(v){return v>0?v.toFixed(3)+"":"—"};var usd=function(v){return v>0?"$"+(v*10000/exrate).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g,","):"—"};document.getElementById("r-fca").textContent=fmt(fca);document.getElementById("r-fob").textContent=fmt(fob);document.getElementById("r-cif").textContent=fmt(cif);document.getElementById("r-fca-usd").textContent=usd(fca);document.getElementById("r-fob-usd").textContent=usd(fob);document.getElementById("r-cif-usd").textContent=usd(cif);saveCalcInputs()}
+function saveCalcInputs(){var ids=["c-prod","c-rate","c-sup","c-port","c-freight","c-exrate"];var d={};ids.forEach(function(id){d[id]=document.getElementById(id).value});sessionStorage.setItem("calc_inputs",JSON.stringify(d))}
+function restoreCalcInputs(){var raw=sessionStorage.getItem("calc_inputs");if(!raw)return;try{var d=JSON.parse(raw);Object.keys(d).forEach(function(id){var el=document.getElementById(id);if(el&&d[id])el.value=d[id]});calcPrice()}catch(e){}}
+function resetCalc(){["c-prod","c-rate","c-sup","c-port","c-freight"].forEach(function(id){var el=document.getElementById(id);if(el)el.value=""});var lbl=document.getElementById("c-point-region");if(lbl)lbl.textContent="";calcPrice();applyDefaultPoint()}
+</script></body></html>
